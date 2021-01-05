@@ -7,8 +7,8 @@ h1{
     font-size: 50px;
 }
 
-.purple-highlight{
-    color: purple;
+.blue-highlight{
+    color: blueviolet;
 }
 
 .half-width{
@@ -51,10 +51,6 @@ h2{
     background-position: right;
 }
 
-.experience-area{
-
-}
-
 .hedding{
     clear: both;
     text-align: center;
@@ -63,8 +59,33 @@ h2{
 .single-experience{
     box-shadow: 10px 10px 40px gray ;
     border-radius: 5px;
-    height: 55%;
+    height: 50%;
     width: 33%;
     margin-left: 90px;
     float: left;
+    padding: 20px;
+    background-color: white;
+}
+
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#beginner-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#student-nine{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
