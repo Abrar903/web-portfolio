@@ -11,14 +11,14 @@ h1{
     color: purple;
 }
 
-.container{
+.half-width{
     float: left;
     width: 40%;
     margin-left: 5%;
     padding-left: 2%;
 }
 
-.container img{
+.half-width img{
     width: 100%;
 }
 
@@ -41,15 +41,13 @@ section{
     background: linear-gradient(45deg, lightsalmon, tomato);
 }
 
-.float-left{
-    float: left;
-    width: 40%;
-    padding-left: 2%;
-    margin-left: 5px;
+h2{
+    font-size: 40px;
 }
 
-.float-left img{
-    width: 100%;
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
-
 
